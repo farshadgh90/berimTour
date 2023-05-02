@@ -1,0 +1,29 @@
+.about-container {
+  margin: 4rem 6rem;
+  direction: rtl;
+  text-align: start;
+}
+
+.about-container h1 {
+  padding-bottom: 1rem;
+}
+
+.about-container p {
+  padding-bottom: 2rem;
+}
+
+li {
+  display: flex;
+  list-style: none;
+}
+
+.mission-list li i {
+  padding-left: 0.4rem;
+  color: #01959a;
+}
+
+@media screen and (max-width: 850px) {
+  .about-container {
+    margin: 4rem 2rem;
+  }
+}
